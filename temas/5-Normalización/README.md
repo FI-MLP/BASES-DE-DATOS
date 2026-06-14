@@ -25,7 +25,9 @@ La normalización es un proceso utilizado en bases de datos relacionales para re
 
 Las anomalías de actualización son efectos no deseados que aparecen cuando existe redundancia de información dentro de una base de datos.
 
-![Anomalías de actualización](recursos/anomalias_actualizacion.png)
+<p align="center">
+  <img src="recursos/anomalias_actualizacion.png" alt="Anomalías de actualización" width="60%">
+</p>
 
 ## Anomalía de inserción
 
@@ -170,11 +172,17 @@ Una tabla está en FNBC cuando:
 
 ### Dependencias en FNBC
 
-![Dependencias FNBC](recursos/dependencias_fnbc.png)
+<p align="center">
+  <img src="recursos/dependencias_fnbc.png" alt="Dependencias FNBC" width="40%">
+</p>
+
 
 ### Ejemplo
 
-![Ejemplo FNBC](recursos/ejemplo_fnbc.png)
+<p align="center">
+  <img src="recursos/ejemplo_fnbc.png" alt="Ejemplo FNBC" width="50%">
+</p>
+
 
 ---
 
@@ -198,7 +206,9 @@ Un restaurante puede:
 
 Ambas relaciones son independientes entre sí, pero al almacenarlas en una sola tabla se generan múltiples combinaciones redundantes.
 
-![Ejemplo de 4FN](recursos/ejemplo_4fn_restaurante_pizza.png)
+<p align="center">
+  <img src="recursos/ejemplo_4fn_restaurante_pizza.png" alt="jemplo de 4FN" width="40%">
+</p>
 
 La solución consiste en separar las relaciones:
 
@@ -281,7 +291,9 @@ La desnormalización consiste en revertir parcialmente el proceso de normalizaci
 
 ## Consideraciones
 
-![Resumen de desnormalización](recursos/desnormalizacion_resumen.png)
+<p align="center">
+  <img src="recursos/desnormalizacion_resumen.png" alt="Resumen de desnormalización" width="50%">
+</p>
 
 ---
 
