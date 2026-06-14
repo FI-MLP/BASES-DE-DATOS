@@ -86,6 +86,11 @@ Se interpreta como:
 * A determina a B.
 * B depende funcionalmente de A.
 
+<p align="center">
+  <img src="recursos/dependencias_fnbc.png" alt="Dependencias FNBC" width="40%">
+</p>
+
+
 ### Ejemplo
 
 ```text
@@ -93,8 +98,6 @@ NumCuenta → Teléfono
 ```
 
 Si se conoce el número de cuenta, se puede determinar un único teléfono.
-
-![Dependencias funcionales](recursos/dependencias_funcionales_1fn.png)
 
 ---
 
@@ -169,20 +172,6 @@ Una tabla está en FNBC cuando:
 * Más estricta que la 3FN.
 * Aplica principalmente cuando existen múltiples claves candidatas.
 * Reduce aún más la redundancia.
-
-### Dependencias en FNBC
-
-<p align="center">
-  <img src="recursos/dependencias_fnbc.png" alt="Dependencias FNBC" width="40%">
-</p>
-
-
-### Ejemplo
-
-<p align="center">
-  <img src="recursos/ejemplo_fnbc.png" alt="Ejemplo FNBC" width="50%">
-</p>
-
 
 ---
 
