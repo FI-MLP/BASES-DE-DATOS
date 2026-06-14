@@ -15,14 +15,15 @@ A diferencia de los casos básicos vistos en Diseño Lógico, aquí se analizan 
 
 # Índice
 
-- Introducción
-- Generalización no exclusiva
-- Generalización exclusiva
-- Especialización no exclusiva
-- Especialización exclusiva
-- Agregación
-- Históricos
-- Comparación Crow's Foot e IDEF1X
+- [Introducción](#introducción)
+- [Generalización no exclusiva](#generalización-no-exclusiva)
+- [Generalización exclusiva](#generalización-exclusiva)
+- [Especialización no exclusiva](#especialización-no-exclusiva)
+- [Especialización exclusiva](#especialización-exclusiva)
+- [Agregación](#agregación)
+- [Históricos](#históricos)
+- [Comparación Crow's Foot e IDEF1X](#comparación-crows-foot-e-idef1x)
+- [Resumen](#resumen)
 
 ---
 
@@ -352,3 +353,39 @@ Implementar históricos implica:
 - Consultas potencialmente más complejas.
 
 Por ello, deben utilizarse cuando exista una necesidad real de conservar información pasada.
+
+---
+
+# Comparación Crow's Foot e IDEF1X
+
+Durante la transformación avanzada se utilizaron dos notaciones ampliamente conocidas.
+
+| Concepto | Crow's Foot | IDEF1X |
+|-----------|------------|---------|
+| Traslape (Overlapping) | Restricciones o tablas auxiliares | O |
+| Exclusión (Disjoint) | Restricciones lógicas | D |
+| Participación total | Cardinalidad | Doble línea |
+| Participación parcial | Cardinalidad | Línea simple |
+| Herencia | Relaciones explícitas | Símbolos especializados |
+
+---
+
+# Resumen
+
+La transformación avanzada al modelo relacional permite representar correctamente estructuras complejas del modelo Entidad-Relación Extendido (EER).
+
+Los principales casos analizados fueron:
+
+- Generalización no exclusiva.
+- Generalización exclusiva.
+- Especialización no exclusiva.
+- Especialización exclusiva.
+- Agregación.
+- Históricos.
+
+Además, se estudiaron dos notaciones ampliamente utilizadas en la industria:
+
+- Crow's Foot.
+- IDEF1X.
+
+La correcta aplicación de estas reglas permite transformar modelos conceptuales complejos en esquemas relacionales listos para su implementación en un Sistema Gestor de Bases de Datos.
